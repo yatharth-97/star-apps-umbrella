@@ -39,7 +39,7 @@ function changeColor(color) {
 
     umbrella.style.display = 'block';
     //changed the time for setimeout
-  }, 4000);
+  }, 5000);
 }
 
 // default color of pink would be selected in case the selectedUmbrella can't find the color
