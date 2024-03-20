@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Umbrella</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <div class="customizer">
+      <div class="preview">
+        <div class="umbrella" id="umbrella">
+          <!-- Here will be your Logo that you want to upload -->
+        </div>
+        <div id="loader" class="loader" style="display: none">
+          <div class="loader-inner">
+            <img src="./assets/loader_icon.svg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="controls">
+        <h3 style="margin-left: 30px">Custom Umbrella</h3>
+        <div class="colors">
+          <div
+            class="color wontwork"
+            style="background-color: brown"
+            data-color="brown"
+            onclick="changeColor('brown')"
+          ></div>
+          <div
+            class="color wontwork"
+            style="background-color: grey"
+            data-color="grey"
+            onclick="changeColor('grey')"
+          ></div>
+          <div
+            class="color wontwork"
+            style="background-color: blueviolet"
+            data-color="blueviolet"
+            onclick="changeColor('blueviolet')"
+          ></div>
+          <div
+            class="color"
+            style="background-color: magenta"
+            data-color="pink"
+            onclick="changeColor('pink')"
+          ></div>
+          <div
+            class="color"
+            style="background-color: blue"
+            data-color="aliceblue"
+            onclick="changeColor('aliceblue')"
+          ></div>
+          <div
+            class="color"
+            style="background-color: yellow"
+            data-color="khaki"
+            onclick="changeColor('khaki')"
+          ></div>
+        </div>
+        <h5 class="click">Click on the upload icon below NOW !!!!</h5>
+
+        <div
+          class="preview"
+          style="background-color: #ffd700"
+          title="Click on the upload icon"
+        >
+          <div class="new-flex">
+            <input
+              name="logo"
+              type="file"
+              accept="image/*"
+              onchange="previewLogo(event)"
+              style="display: none"
+            />
+
+            <img
+              src="./assets/upload_icon.svg"
+              alt=""
+              onclick="document.querySelector('input[name=\'logo\']').click();"
+            />
+
+            <span>Upload Logo</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
