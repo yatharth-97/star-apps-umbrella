@@ -2,7 +2,7 @@
 
 Custom Umbrella Customizer is a web application that allows users to customize and preview umbrellas with different colors and logos.
 
-![Custom Umbrella Customizer](https://deluxe-buttercream-ff76ff.netlify.app/)
+here is the live link of demo: ⭐![Umbrella Customizer](https://deluxe-buttercream-ff76ff.netlify.app/)
 
 ## Features
 
