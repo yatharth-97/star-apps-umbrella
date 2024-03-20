@@ -1,4 +1,4 @@
-# Custom Umbrella Customizer
+# Umbrella Customizer
 
 Custom Umbrella Customizer is a web application that allows users to customize and preview umbrellas with different colors and logos.
 
